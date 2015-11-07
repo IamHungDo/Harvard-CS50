@@ -1,0 +1,20 @@
+0.  Longest word I've ever seen. It's a lung disease caused by silica dust.
+1.  getrusang returns recrouse usage measures for who.
+2.  There are 16.
+3.  Using a pointer is much more efficient
+4.  Every string consists of an invisible character at the end of it. So when we loop through the files, everytime we read the invisible character, that indicates a start of a new word. We iterate through the array until we reach the end of the file.
+5.  You guys used fgetc in order to ignore certain symbols or numbers. fscanf can be problematic because it will read the whole string, including symbols and numbers.
+6.  I think you guys declared it as const in order to keep the value to it's original form. Afterall, we are dealing with mispelled words.
+7.  I followed the CS50 video on hash tables. You guys mentioned that each hash table index can contrain a linked list. The header of every index points to the next node.
+8.  It was pretty slow, I remember the time in total was around 5 seconds.
+9. 
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.06
+TIME IN check:        0.00
+TIME IN size:         0.00
+TIME IN unload:       0.05
+TIME IN TOTAL:        0.12
+The time in total decreased significantly. At first I messed up because I had a function that didn't spread the characters to buckets well enough. So I looked online on stackoverflow to see if theres any help. Turns out, there was syntax errors in my code.
+10. Nope

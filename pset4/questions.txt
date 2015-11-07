@@ -1,0 +1,19 @@
+0.  BMP-16, GIF-256, PNG-256, JPEG-16.
+1.  GIF.
+2.  Lossless makes a file smaller in size but keeps the information. Lossy degrades the quality and reduces the informnation.
+3.  JPEG.
+4.  The information in the table is deleted but the file will still remain there.
+5.  Make sure the data is replaced with all zeroes.
+6.  This is a header that you can include in your program to declare integer types with a certain width.
+7.  These variables have a set size so that makes it easy to read the program.
+8.  Byte-1 byte, Word-2 byte, Dword-4 byte,Long-4 byte.
+9.  The first two bytes are BM (Ascii).
+10. BfSize corresponds to the size of the bitmap. BiSize corresponds to the size of the BITMAPINFOHEADER struct.
+11. If the height is negetive, the bitmap is top-down.
+12. The biBitCount.
+13. Fopen can return NULL due to no space or permission.
+14. Fread is always one because we want to read one at a time.
+15. Will assign 3 bytes of padding.
+16. Fseek sets the pointer by the given offset of a file stream.
+17. Seek_Cur is the current position of the pointer.
+18. It was Rob whosedunit
